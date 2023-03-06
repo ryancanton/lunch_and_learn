@@ -18,7 +18,7 @@ RSpec.describe "Random Country Request" do
     country = CountriesFacade.get_random_country.name
 
     country_names = response_hash.map do |country|
-      country[:name][:common]
+      country[:name][:common].downcase
     end
 
     expect(country_names.include?(country)).to eq(true)
