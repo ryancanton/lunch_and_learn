@@ -68,3 +68,30 @@
 # 4. You are expected to commit at least once every 15 minutes or so.
 # 5. Do not make a PR until we tell you to. (around 11:50am MT)
 # 6. Take a deep breath, you've got this.
+
+require 'rails_helper'
+
+RSpec.describe "Tourist Sights Request" do
+  it 'can return a list of tourist sights based on country param' do
+
+    italy_json = File.read('spec/fixtures/italy_info.json')
+    sights_json = File.read('spec/fixtures/rome_sights.json')
+
+    stub_request(:get, "https://restcountries.com/v3.1/name/Italy").
+         with(
+           headers: {
+       	  'Accept'=>'*/*','Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3','User-Agent'=>'Faraday v2.7.4'
+           }).to_return(status: 200, body: italy_json, headers: {})
+    
+    stub_request(:get, "https://api.geoapify.com/v2/places?apiKey=e3a2e07500244eeeb56372eb2aedd838&categories=tourism.sights&filter=circle:12.48,41.9,20000&limit=20").
+         with(
+           headers: {
+       	  'Accept'=>'*/*','Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3','User-Agent'=>'Faraday v2.7.4'
+           }).to_return(status: 200, body: sights_json, headers: {})
+
+    get '/api/v1/tourist_sights?country=Italy'
+
+    expect(response).to be_successful
+    sights = JSON.parse(response.body, symbolize_names: true)
+  end
+end

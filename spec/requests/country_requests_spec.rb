@@ -15,7 +15,7 @@ RSpec.describe "Random Country Request" do
            }).
          to_return(status: 200, body: json_response, headers: {})
 
-    country = CountriesFacade.get_random_country.name
+    country = CountriesFacade.get_random_country
 
     country_names = response_hash.map do |country|
       country[:name][:common].downcase
