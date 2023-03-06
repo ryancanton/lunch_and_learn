@@ -1,6 +1,36 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/capital.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/tourist_sight.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          21,
+          21,
+          21,
+          21,
+          null,
+          null
+        ]
+      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/countries_facade.rb": {
         "lines": [
           1,
@@ -108,19 +138,6 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/capital.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/tourist_sights_service.rb": {
         "lines": [
           1,
@@ -130,23 +147,6 @@
           1,
           1,
           null,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/tourist_sight.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          20,
-          20,
-          20,
-          20,
           null,
           null
         ]
@@ -171,6 +171,6 @@
         }
       }
     },
-    "timestamp": 1678123066
+    "timestamp": 1678125081
   }
 }
