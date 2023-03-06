@@ -3,7 +3,7 @@ class Capital
               :lat
 
   def initialize(data)
-    @lon = data[:capitalInfo][:latlng][1]
-    @lat = data[:capitalInfo][:latlng][0]
+    @lon = data[0][:capitalInfo][:latlng][1]
+    @lat = data[0][:capitalInfo][:latlng][0]
   end
 end

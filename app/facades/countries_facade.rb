@@ -6,7 +6,7 @@ class CountriesFacade
   end
 
   def self.get_capital(country)
-    data = CountryService.get_country(country)
-    capital = Capital.new(capital)
+    data = CountriesService.get_country(country)
+    capital = Capital.new(data)
   end
 end
