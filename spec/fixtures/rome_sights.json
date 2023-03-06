@@ -1,0 +1,1530 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Colosseo",
+              "old_name": "Flavian Amphitheatre",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00184",
+              "suburb": "Municipio Roma I",
+              "quarter": "Celio",
+              "street": "Piazza del Colosseo",
+              "lon": 12.493087103595503,
+              "lat": 41.8902614,
+              "state_code": "LAZ",
+              "formatted": "Colosseum, Piazza del Colosseo, 00184 Rome Roma Capitale, Italy",
+              "address_line1": "Colosseum",
+              "address_line2": "Piazza del Colosseo, 00184 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.tourism",
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.contact",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Colosseo",
+                      "rank": 0,
+                      "phone": "+39 06 3996 7700",
+                      "osm_id": -1834818,
+                      "name:bg": "Колизей",
+                      "name:ca": "Colosseu",
+                      "name:cs": "Koloseum",
+                      "name:da": "Colosseum",
+                      "name:de": "Kolosseum",
+                      "name:en": "Colosseum",
+                      "name:eo": "Koloseo",
+                      "name:es": "Coliseo",
+                      "name:eu": "Koliseoa",
+                      "name:fr": "Colisée",
+                      "name:he": "קולוסיאום",
+                      "name:hi": "कोलोसियम",
+                      "name:ia": "Colosseo",
+                      "name:it": "Colosseo",
+                      "name:ko": "콜로세움",
+                      "name:la": "Colosseum",
+                      "name:lt": "Koliziejus",
+                      "name:lv": "Kolizejs",
+                      "name:nl": "Colosseum",
+                      "name:nn": "Colosseum",
+                      "name:pl": "Koloseum",
+                      "name:pt": "Coliseu",
+                      "name:ro": "Colosseum",
+                      "name:ru": "Колизей",
+                      "name:sk": "Koloseum",
+                      "name:sl": "Kolosej",
+                      "name:sv": "Colosseum",
+                      "name:th": "โคลอสเซียม",
+                      "name:tr": "Kolezyum",
+                      "name:tt": "Колизей",
+                      "tourism": "attraction",
+                      "website": "https://parcocolosseo.it/",
+                      "alt_name": "Anfiteatro Flavio",
+                      "building": "yes",
+                      "historic": "archaeological_site",
+                      "name:ckb": "کۆلۆسیۆم",
+                      "old_name": "Anfiteatro Flavio",
+                      "osm_type": "r",
+                      "wikidata": "Q10285",
+                      "site_type": "amphitheatre",
+                      "wikipedia": "it:Colosseo",
+                      "importance": "international",
+                      "start_date": 80,
+                      "wheelchair": "limited",
+                      "addr:street": "Piazza del Colosseo",
+                      "alt_name:cs": "Římské koloseum",
+                      "alt_name:en": "Flavian Amphitheatre",
+                      "old_name:cs": "Flaviovský amfiteátr",
+                      "old_name:de": "Flavisches Amphitheater",
+                      "old_name:en": "Flavian Amphitheatre",
+                      "old_name:eo": "Flavia Amfiteatro",
+                      "old_name:es": "Anfiteatro Flavio",
+                      "old_name:eu": "Flaviar Anfiteatroa",
+                      "old_name:fr": "Amphithéâtre Flavien",
+                      "old_name:ia": "Amphitheatro Flavian",
+                      "old_name:it": "Anfiteatro Flavio",
+                      "old_name:la": "Amphitheatrum Flavium",
+                      "old_name:lt": "Flavijaus amfiteatras",
+                      "old_name:lv": "Flāvija amfiteātris",
+                      "old_name:pl": "Amfiteatr Flawiuszów",
+                      "old_name:pt": "Anfiteatro Flaviano",
+                      "old_name:ru": "амфитеатр Флавиев",
+                      "old_name:sk": "Flaviovský amfiteáter",
+                      "old_name:sl": "Flavíjski amfiteáter",
+                      "old_name:tr": "Flavianus Amfitiyatro",
+                      "addr:postcode": "00184",
+                      "building:part": "no",
+                      "opening_hours": "Nov 01-Feb 15: 08:30-16:30; Feb 16-Mar 31: 08:30-17:00; Apr-Aug: 08:30-19:15; Sep: 08:30-19:00; Oct 08:30-18:30; May 01 off; Jan 01 off; Dec 25 off",
+                      "historic:period": "principate",
+                      "contact:facebook": "https://www.facebook.com/parcocolosseo/",
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "51a05384fe15fc284059fb860e82f4f14440f00101f90142ff1b0000000000920308436f6c6f7373656f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.492355302479893,
+                  41.89027429303493
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Villa Medici",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00187",
+              "suburb": "Municipio Roma I",
+              "quarter": "Campo Marzio",
+              "street": "Viale della Trinità dei Monti",
+              "housenumber": "1",
+              "lon": 12.482466444767859,
+              "lat": 41.9083045,
+              "state_code": "LAZ",
+              "formatted": "Villa Medici, Viale della Trinità dei Monti, 1, 00187 Rome Roma Capitale, Italy",
+              "address_line1": "Villa Medici",
+              "address_line2": "Viale della Trinità dei Monti, 1, 00187 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.tourism",
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.castle"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Villa Medici",
+                      "phone": "+39 06 6761 311",
+                      "osm_id": 23442671,
+                      "name:fr": "Villa Medicis",
+                      "name:ru": "Вилла Медичи",
+                      "tourism": "attraction",
+                      "website": "https://www.villamedici.it/",
+                      "building": "yes",
+                      "historic": "castle",
+                      "osm_type": "w",
+                      "wikidata": "Q1362663",
+                      "wikipedia": "it:Villa Medici",
+                      "addr:street": "Viale della Trinità dei Monti",
+                      "castle_type": "palace",
+                      "opening_hours": "Tu-Su 9:30-17:30",
+                      "addr:housenumber": 1
+                  }
+              },
+              "place_id": "516af1919319f728405987520bb542f44440f00102f901efb465010000000092030c56696c6c61204d6564696369"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.482617007794676,
+                  41.90828574231005
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Catacombe di San Callisto",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00179",
+              "suburb": "Ardeatino",
+              "street": "Via Appia Antica",
+              "housenumber": "110",
+              "lon": 12.510753301890572,
+              "lat": 41.8589008,
+              "state_code": "LAZ",
+              "formatted": "Catacombs of Saint Calixt, Via Appia Antica, 110, 00179 Rome Roma Capitale, Italy",
+              "address_line1": "Catacombs of Saint Calixt",
+              "address_line2": "Via Appia Antica, 110, 00179 Rome Roma Capitale, Italy",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.historic",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fax": "+39 06 513 01 567",
+                      "name": "Catacombe di San Callisto",
+                      "email": "info@catacombesancallisto.it",
+                      "phone": "+39 06 513 0151",
+                      "osm_id": 27351933,
+                      "name:de": "Kalixtus-Katakomben",
+                      "name:en": "Catacombs of Saint Calixt",
+                      "name:es": "Catacumbas de San Calixto",
+                      "name:it": "Catacombe di San Callisto",
+                      "name:ru": "Катакомбы Сан-Каллисто",
+                      "tourism": "attraction",
+                      "website": "https://www.catacombesancallisto.it/",
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q1027069",
+                      "addr:city": "Roma",
+                      "site_type": "catacombs",
+                      "wikipedia": "it:Catacombe di San Callisto",
+                      "addr:street": "Via Appia Antica",
+                      "addr:postcode": "00179",
+                      "opening_hours": "Mo-Su 09:00-12:00,14:00-17:00; We off; Feb off",
+                      "addr:housenumber": 110
+                  }
+              },
+              "place_id": "51d0fbb776760529405927969a5fefed4440f00102f9017d5ba1010000000092031943617461636f6d62652064692053616e2043616c6c6973746f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.510669431647244,
+                  41.858867598039346
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Mausoleo di Elena",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00176",
+              "suburb": "Municipio Roma V",
+              "street": "Via Casilina",
+              "lon": 12.54877229391652,
+              "lat": 41.8789058,
+              "state_code": "LAZ",
+              "formatted": "Mausoleum of Helena, Via Casilina, 00176 Rome Roma Capitale, Italy",
+              "address_line1": "Mausoleum of Helena",
+              "address_line2": "Via Casilina, 00176 Rome Roma Capitale, Italy",
+              "categories": [
+                  "access",
+                  "access.yes",
+                  "building",
+                  "building.historic",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.contact",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Mausoleo di Elena",
+                      "tomb": "mausoleum",
+                      "email": "santimarcellinoepietro@gmail.com",
+                      "phone": "+39 06 2419446",
+                      "access": "yes",
+                      "osm_id": 112655535,
+                      "name:de": "Helenamausoleum",
+                      "name:en": "Mausoleum of Helena",
+                      "name:it": "Mausoleo di Elena",
+                      "website": "https://www.soprintendenzaspecialeroma.it/schede/mausoleo-di-sant-elena_2979/",
+                      "building": "yes",
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "wikidata": "Q1548855",
+                      "site_type": "tomb",
+                      "wikipedia": "it:Mausoleo di Elena",
+                      "start_date": "13/10/2019",
+                      "description": "Dal 13 ottobre 2019 saranno restituiti alla fruizione dei cittadini il Mausoleo di Sant’Elena e l’Antiquarium della via Casilina. http://www.soprintendenzaspecialeroma.it/eventi/riapre-al-pubblico-il-monumento-simbolo-di-torpignattara_73//&news",
+                      "opening_hours": "Mo,Tu,We,Fr,Sa,Su 10:00,11:00,15:00,16:00 \"by appointment\"; Th off",
+                      "wikimedia_commons": "File:Mausoleo di Elena, Roma, Italia Feb 28, 2021 01-14-37 PM.jpeg",
+                      "historic:civilization": "western_roman"
+                  }
+              },
+              "place_id": "51e3d7a53cfe1829405928d4e62580f04440f00102f901affcb606000000009203114d6175736f6c656f20646920456c656e61"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.548814673656983,
+                  41.87891076823172
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Chiesa di Sant'Andrea al Quirinale",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00187",
+              "suburb": "Municipio Roma I",
+              "quarter": "Monti",
+              "street": "Via del Quirinale",
+              "housenumber": "30",
+              "lon": 12.489352381422325,
+              "lat": 41.9006713,
+              "state_code": "LAZ",
+              "formatted": "Chiesa di Sant'Andrea al Quirinale, Via del Quirinale, 30, 00187 Rome Roma Capitale, Italy",
+              "address_line1": "Chiesa di Sant'Andrea al Quirinale",
+              "address_line2": "Via del Quirinale, 30, 00187 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.place_of_worship",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.place_of_worship",
+                  "tourism.sights.place_of_worship.church"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.facilities",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Chiesa di Sant'Andrea al Quirinale",
+                      "email": "rm.sandrea.comunita@gesuiti.it",
+                      "phone": "+39 06 481 9399",
+                      "osm_id": 112820613,
+                      "amenity": "place_of_worship",
+                      "name:it": "Sant'Andrea al Quirinale",
+                      "name:ru": "Церковь Сант-Андреа аль Квиринале",
+                      "name:zh": "奎里納雷安德列教堂",
+                      "website": "https://santandrea.gesuiti.it",
+                      "building": "church",
+                      "historic": "church",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q1354667",
+                      "addr:city": "Roma",
+                      "wikipedia": "it:Chiesa di Sant'Andrea al Quirinale",
+                      "wheelchair": "no",
+                      "addr:street": "Via del Quirinale",
+                      "denomination": "catholic",
+                      "addr:postcode": "00187",
+                      "opening_hours": "Tu-Su 09:00-12:00, 15:00-18:00",
+                      "addr:housenumber": 30
+                  }
+              },
+              "place_id": "518b547e818bfa284059700bf0f349f34440f00102f9018581b906000000009203224368696573612064692053616e7427416e6472656120616c2051756972696e616c65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.489345595046208,
+                  41.90069436284
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Basilica di San Pietro",
+              "country": "Vatican City",
+              "country_code": "va",
+              "postcode": "00120",
+              "suburb": "Vatican City",
+              "street": "Foundation Street",
+              "lon": 12.453712068088656,
+              "lat": 41.9021569,
+              "formatted": "Saint Peter's Basilica, Foundation Street, 00120, Vatican City",
+              "address_line1": "Saint Peter's Basilica",
+              "address_line2": "Foundation Street, 00120, Vatican City",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.place_of_worship",
+                  "building.tourism",
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.place_of_worship",
+                  "tourism.sights.place_of_worship.cathedral",
+                  "tourism.sights.place_of_worship.church",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.contact",
+                  "details.facilities",
+                  "details.historic",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fax": "+390669885518",
+                      "name": "Basilica di San Pietro",
+                      "phone": "+390669883465",
+                      "height": 54,
+                      "osm_id": 205541334,
+                      "amenity": "place_of_worship",
+                      "name:be": "Сабор Святога Пятра",
+                      "name:cs": "Bazilika svatého Petra",
+                      "name:de": "Petersdom",
+                      "name:en": "Saint Peter's Basilica",
+                      "name:es": "Basílica de San Pedro",
+                      "name:et": "Rooma Peetri kirik",
+                      "name:fr": "Basilique Saint-Pierre",
+                      "name:hi": "सेंट पीटर बैसिलिका",
+                      "name:hr": "Bazilika svetog Petra u Vatikanu",
+                      "name:hu": "Szent Péter bazilika",
+                      "name:it": "Basilica di San Pietro",
+                      "name:ko": "성 베드로 대성당",
+                      "name:la": "Basilica Sancti Petri",
+                      "name:mk": "Базилика „Св. Петар“",
+                      "name:nl": "Sint-Pietersbasiliek",
+                      "name:pl": "Bazylika Świętego Piotra",
+                      "name:pt": "Basílica de São Pedro",
+                      "name:ru": "Собор Святого Петра",
+                      "name:sk": "Bazilika svätého Petra",
+                      "name:sl": "Bazilika Svetega Petra",
+                      "name:vi": "Nhà thờ Thánh Phê-rô",
+                      "name:zh": "聖伯多祿大殿",
+                      "tourism": "attraction",
+                      "website": "https://www.vatican.va/various/basiliche/san_pietro/index_it.htm",
+                      "alt_name": "Basilica di San Pietro in Vaticano",
+                      "building": "cathedral",
+                      "historic": "church",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q12512",
+                      "wikipedia": "en:St. Peter's Basilica",
+                      "importance": "international",
+                      "start_date": "1626-11-18",
+                      "wheelchair": "yes",
+                      "alt_name:de": "Petersdom",
+                      "alt_name:mk": "Базилика „Свети Петар“",
+                      "alt_name:vi": "Vương cung thánh đường Thánh Phê-rô",
+                      "alt_name:zh": "圣彼得大教堂",
+                      "denomination": "roman_catholic",
+                      "name:zh-Hans": "圣伯多禄大殿",
+                      "name:zh-Hant": "聖伯多祿大殿",
+                      "official_name": "Papale arcibasilica patriarcale maggiore arcipretale di San Pietro in Vaticano",
+                      "opening_hours": "Apr-Sep: Mo-Su 07:00-19:00; Oct-Mar: Mo-Su 07:00-18:30",
+                      "service_times": "Mo-Su 08:30-16:45",
+                      "building:colour": "lightyellow",
+                      "building:material": "stone",
+                      "building:architecture": "renaissance;baroque"
+                  }
+              },
+              "place_id": "51ec4ce95d50e8284059f3407ace79f34440f00102f901d64f400c00000000920316426173696c6963612064692053616e2050696574726f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.453738150338232,
+                  41.90215474099559
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Catacombe di San Sebastiano",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00179",
+              "suburb": "Ardeatino",
+              "street": "Via Appia Antica",
+              "housenumber": "136",
+              "lon": 12.5157968,
+              "lat": 41.85593,
+              "state_code": "LAZ",
+              "formatted": "Catacombe di San Sebastiano, Via Appia Antica, 136, 00179 Rome Roma Capitale, Italy",
+              "address_line1": "Catacombe di San Sebastiano",
+              "address_line2": "Via Appia Antica, 136, 00179 Rome Roma Capitale, Italy",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.facilities",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Catacombe di San Sebastiano",
+                      "email": "info@catacombe.org",
+                      "phone": "+39067850350",
+                      "osm_id": 452570567,
+                      "name:es": "Catacumbas de San Sebastián",
+                      "name:ru": "Катакомбы Сан-Себастьяно",
+                      "tourism": "attraction",
+                      "website": "http://www.catacombe.org",
+                      "historic": "catacomb",
+                      "osm_type": "n",
+                      "religion": "christian",
+                      "wikidata": "Q546419",
+                      "addr:city": "Roma",
+                      "wheelchair": "no",
+                      "addr:street": "Via Appia Antica",
+                      "opening_hours": "9:30-17:30",
+                      "addr:housenumber": 136
+                  }
+              },
+              "place_id": "514ec3a684160829405959da3f1d8fed4440f00103f901c7adf91a0000000092031b43617461636f6d62652064692053616e2053656261737469616e6f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.5157968,
+                  41.855930000475105
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Villa di Livia",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "village": "Casale Prima Porta",
+              "postcode": "00188",
+              "suburb": "Municipio Roma XV",
+              "street": "Via della Villa di Livia",
+              "lon": 12.4926138,
+              "lat": 42.0031166,
+              "state_code": "LAZ",
+              "formatted": "Via della Villa di Livia, 00188 Rome Roma Capitale, Italy",
+              "address_line1": "Via della Villa di Livia",
+              "address_line2": "00188 Rome Roma Capitale, Italy",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Villa di Livia",
+                      "phone": "+39 06 33626826",
+                      "osm_id": 2074634919,
+                      "website": "archeoroma.beniculturali.it",
+                      "historic": "archaeological_site",
+                      "osm_type": "n",
+                      "wikidata": "Q639179",
+                      "wikipedia": "it:Villa di Livia",
+                      "opening_hours": "Mo-Fr 10:00-13:00; Su 10:00-12:00, 14:00-16:00"
+                  }
+              },
+              "place_id": "51d71d41e037fc2840590095f01f66004540f00103f901a76aa87b0000000092030e56696c6c61206469204c69766961"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.492613799999999,
+                  42.003116600486464
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Stadio di Domiziano",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00186",
+              "suburb": "Municipio Roma I",
+              "quarter": "Parione",
+              "street": "Via di Tor Sanguigna",
+              "housenumber": "3",
+              "lon": 12.4725305,
+              "lat": 41.9002159,
+              "state_code": "LAZ",
+              "formatted": "Stadio di Domiziano, Via di Tor Sanguigna, 3, 00186 Rome Roma Capitale, Italy",
+              "address_line1": "Stadio di Domiziano",
+              "address_line2": "Via di Tor Sanguigna, 3, 00186 Rome Roma Capitale, Italy",
+              "categories": [
+                  "entertainment",
+                  "entertainment.museum",
+                  "fee",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fee": "yes",
+                      "name": "Stadio di Domiziano",
+                      "email": "info@stadiodomiziano.com",
+                      "phone": "+39 06 68805311",
+                      "osm_id": 2296913458,
+                      "tourism": "museum",
+                      "website": "https://stadiodomiziano.com/",
+                      "alt_name": "Stadium of Domitian",
+                      "historic": "archaeological_site",
+                      "operator": "Sovrintendenza Capitolina ai Beni Culturali",
+                      "osm_type": "n",
+                      "wikidata": "Q963671",
+                      "addr:city": "Roma",
+                      "ref:vatin": "IT09993821009",
+                      "site_type": "stadium",
+                      "wikipedia": "it:Stadio di Domiziano",
+                      "wheelchair": "no",
+                      "addr:street": "Via di Tor Sanguigna",
+                      "description": "Piazza Navona, ai tempi dell'antica Roma, era lo Stadio di Domiziano, costruito dall'imperatore Domiziano nell'85. Era lungo 276 m, largo 106 e poteva ospitare 30.000 spettatori.",
+                      "addr:country": "IT",
+                      "addr:postcode": "00186",
+                      "opening_hours": "Mo-Fr 10:00-19:00, Su 10:00-19:00; Sa 10:00-20:00",
+                      "concessionaire": "MKT121 Srl.",
+                      "addr:housenumber": 3,
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "519cb98784eff12840598bf24d463af34440f00103f901321ee8880000000092031353746164696f20646920446f6d697a69616e6f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.472530499999998,
+                  41.90021590047862
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Villa di Massenzio",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00179",
+              "suburb": "Municipio Roma VIII",
+              "street": "Via Appia Antica",
+              "lon": 12.5195946,
+              "lat": 41.8559222,
+              "state_code": "LAZ",
+              "formatted": "Villa of Maxentius, Via Appia Antica, 00179 Rome Roma Capitale, Italy",
+              "address_line1": "Villa of Maxentius",
+              "address_line2": "Via Appia Antica, 00179 Rome Roma Capitale, Italy",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.ruines"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Villa di Massenzio",
+                      "email": "info@museiincomuneroma.it",
+                      "phone": "+39 06 0608",
+                      "ruins": "villa",
+                      "osm_id": 2605150360,
+                      "name:en": "Villa of Maxentius",
+                      "name:hu": "Maxentius villája",
+                      "name:ru": "Вилла Максенция",
+                      "website": "http://www.villadimassenzio.it/it/museo/editoriale",
+                      "historic": "ruins",
+                      "osm_type": "n",
+                      "wikidata": "Q4012743",
+                      "addr:city": "Roma",
+                      "wikipedia": "it:Villa di Massenzio",
+                      "addr:street": "Via Appia Antica",
+                      "opening_hours": "Tu-Su 10:00-16:00; Dec 24,Dec 31 10:00-14:00; Mo off; Jan 01 off; May 01 off; Dec 25 off",
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "513c5bac4d080a294059ff7ad1db8eed4440f00103f9019870479b0000000092031256696c6c61206469204d617373656e7a696f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.519594599999998,
+                  41.8559222004751
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Terme di Caracalla",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00154",
+              "suburb": "Municipio Roma I",
+              "quarter": "San Saba",
+              "street": "Via Lucio Fabio Cilone",
+              "lon": 12.492473652251636,
+              "lat": 41.87882845,
+              "state_code": "LAZ",
+              "formatted": "Baths of Caracalla, Via Lucio Fabio Cilone, 00154 Rome Roma Capitale, Italy",
+              "address_line1": "Baths of Caracalla",
+              "address_line2": "Via Lucio Fabio Cilone, 00154 Rome Roma Capitale, Italy",
+              "categories": [
+                  "fee",
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fee": "yes",
+                      "name": "Terme di Caracalla",
+                      "charge": "8.00 EUR",
+                      "osm_id": -13476232,
+                      "name:cs": "Caracallovy lázně",
+                      "name:de": "Caracalla-Thermen",
+                      "name:en": "Baths of Caracalla",
+                      "name:es": "Termas de Caracalla",
+                      "name:et": "Caracalla termid",
+                      "name:fr": "Thermes de Caracalla",
+                      "name:it": "Terme di Caracalla",
+                      "name:ja": "カラカラ浴場跡",
+                      "tourism": "attraction",
+                      "website": "https://www.coopculture.it/heritage.cfm?id=6",
+                      "historic": "archaeological_site",
+                      "osm_type": "r",
+                      "wikidata": "Q502098",
+                      "wikipedia": "it:Terme di Caracalla",
+                      "wheelchair": "limited",
+                      "opening_hours": "Tu-Su 10:00-19:15",
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "51af8edcdb1bfc284059ce8694657ff04440f00101f90188a1cd00000000009203125465726d65206469204361726163616c6c61"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.492400046037202,
+                  41.8788878417232
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Mausoleo di Augusto",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00186",
+              "suburb": "Municipio Roma I",
+              "quarter": "Campo Marzio",
+              "street": "Piazza Augusto Imperatore",
+              "lon": 12.476033850369003,
+              "lat": 41.90603165,
+              "state_code": "LAZ",
+              "formatted": "Mausoleum of Augustus, Piazza Augusto Imperatore, 00186 Rome Roma Capitale, Italy",
+              "address_line1": "Mausoleum of Augustus",
+              "address_line2": "Piazza Augusto Imperatore, 00186 Rome Roma Capitale, Italy",
+              "categories": [
+                  "access",
+                  "access.yes",
+                  "building",
+                  "building.historic",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.tomb"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Mausoleo di Augusto",
+                      "tomb": "mausoleum",
+                      "ruins": "mausoleum",
+                      "access": "yes",
+                      "osm_id": -2709954,
+                      "name:de": "Augustusmausoleum",
+                      "name:el": "Μαυσωλείο του Αυγούστου",
+                      "name:en": "Mausoleum of Augustus",
+                      "name:es": "Mausoleo de Augusto",
+                      "name:fr": "Mausolée d'Auguste",
+                      "name:nl": "Mausoleum van Augustus",
+                      "name:pt": "Mausoléu de Augusto",
+                      "website": "http://www.mausoleodiaugusto.it",
+                      "building": "yes",
+                      "historic": "tomb",
+                      "osm_type": "r",
+                      "wikidata": "Q770847",
+                      "wikipedia": "it:Mausoleo di Augusto",
+                      "start_date": "2021-03-01",
+                      "wheelchair": "no",
+                      "opening_hours": "Tu-Su 09:00-16:00; Mo off",
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "513c246514eef32840593cf2f26bf8f34440f00101f901c2592900000000009203134d6175736f6c656f206469204175677573746f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.47642577871931,
+                  41.906018727899635
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Sepolcro di Priscilla",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00014",
+              "suburb": "Ardeatino",
+              "street": "Via Appia Antica",
+              "housenumber": "64",
+              "lon": 12.503077359654245,
+              "lat": 41.8664258,
+              "state_code": "LAZ",
+              "formatted": "Tomb of Priscilla, Via Appia Antica, 64, 00014 Rome Roma Capitale, Italy",
+              "address_line1": "Tomb of Priscilla",
+              "address_line2": "Via Appia Antica, 64, 00014 Rome Roma Capitale, Italy",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Sepolcro di Priscilla",
+                      "phone": "+39 06 5135316",
+                      "osm_id": -2112290,
+                      "name:en": "Tomb of Priscilla",
+                      "name:it": "Sepolcro di Priscilla",
+                      "website": "http://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/sepolcro_di_priscilla",
+                      "historic": "archaeological_site",
+                      "osm_type": "r",
+                      "wikidata": "Q3955654",
+                      "addr:city": "Roma",
+                      "wikipedia": "en:Tomb of Priscilla",
+                      "wheelchair": "limited",
+                      "addr:street": "Via Appia Antica",
+                      "addr:housenumber": 64,
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "51c9d7d5f5940129405969f00a55e7ee4440f00101f901223b2000000000009203155365706f6c63726f206469205072697363696c6c61"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.503089601854201,
+                  41.8664346984304
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Villa dei Quintili",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00178",
+              "suburb": "Torricola",
+              "street": "Via Appia Nuova",
+              "housenumber": "1092",
+              "lon": 12.55134176445338,
+              "lat": 41.829952000000006,
+              "state_code": "LAZ",
+              "formatted": "Villa dei Quintili, Via Appia Nuova, 1092, 00178 Rome Roma Capitale, Italy",
+              "address_line1": "Villa dei Quintili",
+              "address_line2": "Via Appia Nuova, 1092, 00178 Rome Roma Capitale, Italy",
+              "categories": [
+                  "fee",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fee": 6,
+                      "name": "Villa dei Quintili",
+                      "phone": "+39 06 39967700",
+                      "osm_id": -2052753,
+                      "historic": "archaeological_site",
+                      "operator": "Soprintendenza Speciale per i Beni Archeologici di Roma",
+                      "osm_type": "r",
+                      "wikidata": "Q1235515",
+                      "addr:city": "Roma",
+                      "wikipedia": "it:Villa dei Quintili",
+                      "addr:street": "Via Appia Nuova",
+                      "addr:country": "IT",
+                      "opening_hours": "mo-fr 9:00-18:00;sa 9:00-14:00",
+                      "addr:housenumber": 1092,
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "513f15611e3f1a29405951dd02003fea4440f00101f90191521f000000000092031256696c6c6120646569205175696e74696c69"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.551262807227088,
+                  41.83004760875577
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Foro di Traiano",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00184",
+              "suburb": "Municipio Roma I",
+              "quarter": "Monti",
+              "street": "Foro Traiano",
+              "lon": 12.485296301703944,
+              "lat": 41.895129499999996,
+              "state_code": "LAZ",
+              "formatted": "Forum of Trajan, Foro Traiano, 00184 Rome Roma Capitale, Italy",
+              "address_line1": "Forum of Trajan",
+              "address_line2": "Foro Traiano, 00184 Rome Roma Capitale, Italy",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Foro di Traiano",
+                      "ruins": "yes",
+                      "osm_id": -1754380,
+                      "name:de": "Trajansforum",
+                      "name:el": "Φόρουμ του Τραϊανού",
+                      "name:en": "Forum of Trajan",
+                      "name:la": "Forum Traianii",
+                      "name:pl": "Forum Trajana",
+                      "name:ru": "Форум Траяна",
+                      "name:uk": "Форум Траяна",
+                      "tourism": "attraction",
+                      "website": "http://www.mercatiditraiano.it/",
+                      "historic": "archaeological_site",
+                      "osm_type": "r",
+                      "wikidata": "Q211295",
+                      "architect": "Apollodorus of Damascus",
+                      "wikipedia": "en:Trajan's Forum",
+                      "start_date": 143,
+                      "opening_hours": "09:30-19:30",
+                      "historic:civilization": "ancient_roman"
+                  }
+              },
+              "place_id": "51dcf42e726ef8284059c3328b9d94f24440f00101f9010cc51a000000000092030f466f726f2064692054726169616e6f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.485217636329644,
+                  41.89516038224021
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Castel Sant’Angelo",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00193",
+              "suburb": "Municipio Roma I",
+              "quarter": "Borgo",
+              "street": "Lungotevere Castello",
+              "lon": 12.466342676345292,
+              "lat": 41.903117800000004,
+              "state_code": "LAZ",
+              "formatted": "Castle of the Holy Angel, Lungotevere Castello, 00193 Rome Roma Capitale, Italy",
+              "address_line1": "Castle of the Holy Angel",
+              "address_line2": "Lungotevere Castello, 00193 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.tourism",
+                  "entertainment",
+                  "entertainment.museum",
+                  "fee",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.castle",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.contact",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fee": "yes",
+                      "name": "Castel Sant’Angelo",
+                      "email": "sspsae-rm.castelsantangelo@beniculturali.it",
+                      "charge": "14 EUR",
+                      "osm_id": 8035487,
+                      "name:cs": "Andělský hrad",
+                      "name:de": "Engelsburg",
+                      "name:en": "Castle of the Holy Angel",
+                      "name:es": "Castillo de Sant'Angelo",
+                      "name:fr": "Château Saint-Ange",
+                      "name:hi": "पवित्र परी का महल",
+                      "name:hu": "Angyalvár",
+                      "name:it": "Castel Sant’Angelo",
+                      "name:ja": "サンタンジェロ城",
+                      "name:ko": "성천사성",
+                      "name:nl": "Engelenburcht",
+                      "name:pt": "Castelo de Santo Ângelo",
+                      "name:ro": "Castelul Sant'Angelo",
+                      "name:ru": "Замок Святого Ангела",
+                      "name:tr": "Sant'Angelo Kalesi",
+                      "tourism": "museum",
+                      "alt_name": "Mausoleo di Adriano",
+                      "building": "yes",
+                      "historic": "castle",
+                      "osm_type": "w",
+                      "wikidata": "Q486382",
+                      "wikipedia": "it:Castel Sant'Angelo",
+                      "start_date": 139,
+                      "wheelchair": "yes",
+                      "alt_name:cs": "Hadriánovo mauzoleum",
+                      "alt_name:de": "Mausoleum des Hadrian",
+                      "alt_name:en": "Mausoleum of Hadrian",
+                      "alt_name:es": "Mausoleo de Adriano",
+                      "alt_name:it": "Mausoleo di Adriano",
+                      "castle_type": "fortress",
+                      "building:part": "no",
+                      "opening_hours": "Mo-Su 09:00-19:30",
+                      "name:etymology:wikidata": "Q45581"
+                  }
+              },
+              "place_id": "51d23ff80ec5ee28405959aa09ec97f34440f00102f9019f9c7a000000000092031443617374656c2053616e74e28099416e67656c6f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.466347186855192,
+                  41.90307379219002
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Casa dell'Architettura",
+              "old_name": "Acquario Romano",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00185",
+              "suburb": "Municipio Roma I",
+              "quarter": "Esquilino",
+              "street": "Piazza Manfredo Fanti",
+              "lon": 12.502920251841724,
+              "lat": 41.8977085,
+              "state_code": "LAZ",
+              "formatted": "Casa dell'Architettura, Piazza Manfredo Fanti, 00185 Rome Roma Capitale, Italy",
+              "address_line1": "Casa dell'Architettura",
+              "address_line2": "Piazza Manfredo Fanti, 00185 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.contact",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Casa dell'Architettura",
+                      "phone": "+39 06 97604598",
+                      "osm_id": 23502331,
+                      "website": "https://www.casadellarchitettura.it/",
+                      "building": "yes",
+                      "historic": "aquarium",
+                      "old_name": "Acquario Romano",
+                      "operator": "Comune di Roma;Ordine degli Architetti di Roma e provincia",
+                      "osm_type": "w",
+                      "wikidata": "Q3604678",
+                      "architect": "Ettore Bernich",
+                      "wikipedia": "it:Acquario Romano",
+                      "start_date": 1887
+                  }
+              },
+              "place_id": "5128e6a3137c012940592fbc2938e8f24440f00102f901fb9d660100000000920316436173612064656c6c27417263686974657474757261"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.50289975524636,
+                  41.89771177327963
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Basilica di Santa Maria del Popolo",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00187",
+              "suburb": "Municipio Roma I",
+              "quarter": "Campo Marzio",
+              "street": "Piazza del Popolo",
+              "housenumber": "12",
+              "lon": 12.476546269447958,
+              "lat": 41.91147275,
+              "state_code": "LAZ",
+              "formatted": "Basilica of Santa Maria del Popolo, Piazza del Popolo, 12, 00187 Rome Roma Capitale, Italy",
+              "address_line1": "Basilica of Santa Maria del Popolo",
+              "address_line2": "Piazza del Popolo, 12, 00187 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.place_of_worship",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.place_of_worship",
+                  "tourism.sights.place_of_worship.church"
+              ],
+              "details": [
+                  "details",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Basilica di Santa Maria del Popolo",
+                      "osm_id": 52430153,
+                      "amenity": "place_of_worship",
+                      "name:en": "Basilica of Santa Maria del Popolo",
+                      "name:es": "Basílica de Santa María del Popolo",
+                      "name:it": "Basilica di Santa Maria del Popolo",
+                      "name:ru": "Церковь Санта-Мария дель Пополо",
+                      "name:uk": "Санта Марія дель Пополо",
+                      "name:zh": "人民聖母教堂",
+                      "website": "http://www.santamariadelpopolo.it",
+                      "building": "church",
+                      "historic": "church",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q869513",
+                      "addr:city": "Roma",
+                      "wikipedia": "en:Santa Maria del Popolo",
+                      "addr:street": "Piazza del Popolo",
+                      "denomination": "roman_catholic",
+                      "addr:postcode": "00187",
+                      "opening_hours": "Mo-Fr 07:30-12:30,16:00-19:00; Sa 07:30-19:00; Su 07:30-13:30,16:30-19:00",
+                      "service_times": "Mo-Sa 08:00,10:00,18:30; Su 08:00,10:00,11:00,12:00,13:00,18:30",
+                      "addr:housenumber": 12
+                  }
+              },
+              "place_id": "518fba0e08f8f3284059567b105dabf44440f00102f9014905200300000000920322426173696c6963612064692053616e7461204d617269612064656c20506f706f6c6f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.47650170497698,
+                  41.91147959999823
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "U.S. Mission to the UN Agencies in Rome",
+              "old_name": "Villino Boncompagni",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00187",
+              "suburb": "Municipio Roma I",
+              "quarter": "Ludovisi",
+              "street": "Via Boncompagni",
+              "housenumber": "2",
+              "lon": 12.491689811796036,
+              "lat": 41.907571399999995,
+              "state_code": "LAZ",
+              "formatted": "U.S. Mission to the UN Agencies in Rome, Via Boncompagni, 2, 00187 Rome Roma Capitale, Italy",
+              "address_line1": "U.S. Mission to the UN Agencies in Rome",
+              "address_line2": "Via Boncompagni, 2, 00187 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.office",
+                  "office",
+                  "office.diplomatic",
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "fax": "(+39-06) 4674-3535",
+                      "name": "U.S. Mission to the UN Agencies in Rome",
+                      "phone": "(+39 06) 4674-3500",
+                      "office": "diplomatic",
+                      "osm_id": 52510551,
+                      "target": "UN",
+                      "country": "US",
+                      "embassy": "mission",
+                      "name:en": "U.S. Mission to the UN Agencies in Rome",
+                      "name:it": "Missione degli Stati Uniti presso le agenzie delle Nazioni Unite a Roma",
+                      "website": "https://usunrome.usmission.gov/",
+                      "building": "yes",
+                      "historic": "manor",
+                      "old_name": "Villino Boncompagni",
+                      "osm_type": "w",
+                      "wikidata": "Q7890764",
+                      "addr:city": "Roma",
+                      "wikipedia": "en:United States Mission to the UN Agencies in Rome",
+                      "diplomatic": "embassy",
+                      "addr:street": "Via Boncompagni",
+                      "addr:postcode": "00187",
+                      "addr:housename": "Villino Boncompagni",
+                      "addr:housenumber": 2
+                  }
+              },
+              "place_id": "51277e15c2befb284059565106552bf44440f00102f901573f210300000000920327552e532e204d697373696f6e20746f2074686520554e204167656e6369657320696e20526f6d65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.49168974411357,
+                  41.907572391590904
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Santi Vito e Modesto",
+              "country": "Italy",
+              "country_code": "it",
+              "state": "Lazio",
+              "county": "Roma Capitale",
+              "city": "Rome",
+              "postcode": "00185",
+              "suburb": "Municipio Roma I",
+              "quarter": "Esquilino",
+              "street": "Via Carlo Alberto",
+              "housenumber": "47",
+              "lon": 12.501552891186492,
+              "lat": 41.89587175,
+              "state_code": "LAZ",
+              "formatted": "Santi Vito e Modesto, Via Carlo Alberto, 47, 00185 Rome Roma Capitale, Italy",
+              "address_line1": "Santi Vito e Modesto",
+              "address_line2": "Via Carlo Alberto, 47, 00185 Rome Roma Capitale, Italy",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.place_of_worship",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.place_of_worship",
+                  "tourism.sights.place_of_worship.church"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Santi Vito e Modesto",
+                      "phone": "+39 06 4465836",
+                      "osm_id": 95930238,
+                      "amenity": "place_of_worship",
+                      "website": "http://www.sanvito-roma.it/",
+                      "alt_name": "Chiesa dei Santi Vito e Modesto in Macello Martyrum",
+                      "building": "church",
+                      "historic": "church",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q3585446",
+                      "addr:city": "Roma",
+                      "wikipedia": "it:Chiesa dei Santi Vito e Modesto (Roma)",
+                      "addr:street": "Via Carlo Alberto",
+                      "addr:country": "IT",
+                      "denomination": "catholic",
+                      "addr:postcode": "00185",
+                      "addr:housename": "Parrocchia di Santa Maria in San Vito",
+                      "addr:housenumber": 47
+                  }
+              },
+              "place_id": "517495bb34cb0029405945cbe479abf24440f00102f9017ec7b7050000000092031453616e7469205669746f2065204d6f646573746f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  12.501550338648237,
+                  41.89585803672393
+              ]
+          }
+      }
+  ]
+}
