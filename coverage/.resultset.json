@@ -31,6 +31,19 @@
           null
         ]
       },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/tourist_sights_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/countries_facade.rb": {
         "lines": [
           1,
@@ -138,19 +151,6 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/tourist_sights_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/serializers/tourist_sight_serializer.rb": {
         "lines": [
           1,
@@ -171,6 +171,6 @@
         }
       }
     },
-    "timestamp": 1678125081
+    "timestamp": 1678125839
   }
 }
