@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "User Requests" do
-  it 'can creat a user if given an unique email' do
+  it 'can create a user if given an unique email' do
     user_params = {
       name: 'Jane',
       email: 'jane@gmail.com'
