@@ -13,7 +13,7 @@ describe "Recipes API" do
       }).
     to_return(status: 200, body: json_response, headers: {})
     
-    get '/api/v1/learning_resources?country=thailand'
+    get '/api/v1/recipes?country=thailand'
 
     expect(response).to be_successful
     recipes = JSON.parse(response.body, symbolize_names: true)
