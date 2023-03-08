@@ -1,6 +1,33 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/countries_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          251,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/learning_resources_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/tourist_sights_facade.rb": {
         "lines": [
           1,
@@ -8,6 +35,28 @@
           2,
           2,
           42,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/unsplash_images_facade.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
+          30,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/youtube_facade.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
           null,
           null
         ]
@@ -84,22 +133,6 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/countries_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          251,
-          1,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/countries_service.rb": {
         "lines": [
           1,
@@ -128,45 +161,14 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/serializers/favorite_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/learning_resources_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/youtube_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/youtube_service.rb": {
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
+          3,
           null,
           null,
           null
@@ -179,20 +181,8 @@
           null,
           null,
           1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/unsplash_images_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          10,
-          null,
+          3,
+          3,
           null,
           null
         ]
@@ -201,9 +191,9 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
           null,
           null
         ]
@@ -215,8 +205,8 @@
           null,
           null,
           1,
-          10,
-          10,
+          30,
+          30,
           null,
           null
         ]
@@ -229,10 +219,60 @@
           null,
           null,
           1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/recipes_facade.rb": {
+        "lines": [
           1,
+          1,
+          2,
+          42,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/recipes_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/recipe.rb": {
+        "lines": [
           1,
           1,
           null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          40,
+          40,
+          40,
+          40,
+          40,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/serializers/favorite_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -268,46 +308,6 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/recipes_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          21,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/recipes_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/recipe.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          20,
-          20,
-          20,
-          20,
-          20,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/serializers/recipe_serializer.rb": {
         "lines": [
           1,
@@ -339,6 +339,6 @@
         ]
       }
     },
-    "timestamp": 1678291702
+    "timestamp": 1678296384
   }
 }
