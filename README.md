@@ -10,11 +10,11 @@
 
 - [Project Overview](#project-overview)
 - [Schema](#schema)
-- [Tech Stack](#tech-stack)
+- [API Endpoints](#api-endpoint-examples)
 - [Setup and Installation](#setup-and-installation)
 - [Learning Goals](#learning-goals)
 - [API Information](#api-information)
-- [Responsible Parties](#responsible-parties)
+- [About](#responsible-parties)
 
 ## Project Overview
 
@@ -22,169 +22,223 @@ Lunch and Learn is an API service that pulls data from <b>5</b> other open sourc
 
 ## Schema
 <p align="center">
-  <img width="300" src="https://user-images.githubusercontent.com/113324661/222261562-e7764f35-a8e2-4a7a-99ed-5d1e0a5ba159.png">
+  <img width="600" src="https://user-images.githubusercontent.com/113324661/223798963-98bff126-ee29-466f-be3d-0f3525e28a78.png">
 </p>
 
-## API Endpoints
-Here is a list of all mapped client requests with their respective json responses below them:
+## API Endpoint Examples
 
-```GET https://babe-whats-for-dinner-be.herokuapp.com/api/v1/recipes/findByIngredients?apples,flour,sugar```
+
+## GET recipe info based on search by country feature
+
+<b>Request:</b>
+```
+  GET /api/v1/recipes?country=thailand
+  Content-Type: application/json
+  Accept: application/json
+```
+<b>Response:</b>
 ```json 
   {
     "data": [
         {
-            "id": "47890",
-            "type": "discover",
+            "id": null,
+            "type": "recipe",
             "attributes": {
-                "id": 47890,
-                "image": "https://spoonacular.com/recipeImages/47890-312x231.jpg",
-                "name": "Blackberry-Apple Pie Filling",
-                "missing_ingr": [
-                    {
-                        "name": "blackberries",
-                        "amount": 12.0,
-                        "unit": "oz"
-                    },
-                    {
-                        "name": "butter",
-                        "amount": 0.5,
-                        "unit": "cup"
-                    }
-                ],
-                "missing_ingr_count": 2
+                "title": "Andy Ricker's Naam Cheuam Naam Taan Piip (Palm Sugar Simple Syrup)",
+                "url": "https://www.seriouseats.com/recipes/2013/11/andy-rickers-naam-cheuam-naam-taan-piip-palm-sugar-simple-syrup.html",
+                "country": "thailand",
+                "image": "https://edamam-product-images.s3.amazonaws.com..."
             }
         },
-        ...
+        {
+            "id": null,
+            "type": "recipe",
+            "attributes": {
+                "title": "Sriracha",
+                "url": "http://www.jamieoliver.com/recipes/vegetables-recipes/sriracha/",
+                "country": "thailand",
+                "image": "https://edamam-product-images.s3.amazonaws.com/."
+            }
+        },
+        {...},
+        {...},
+        {...},
+        {etc},
     ]
-   } 
+  }
 ```
+## GET images and an informative YouTube video based on search by country feature
 
-```GET https://babe-whats-for-dinner-be.herokuapp.com/api/v1/recipes/479101/information```
+<b>Request:</b>
+```
+  GET /api/v1/learning_resources?country=laos
+  Content-Type: application/json
+  Accept: application/json
+```
+<b>Response:</b>
 ```json
-{
+  {
+      "data": {
+          "id": null,
+          "type": "learning_resource",
+          "attributes": {
+              "country": "laos",
+              "video": {
+                  "title": "A Super Quick History of Laos",
+                  "youtube_video_id": "uw8hjVqxMXw"
+              },
+              "images": [
+                  {
+                      "alt_tag": "standing statue and temples landmark during daytime",
+                      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?ixid=MnwzNzg2NzV8MHwxfHNlYXJjaHwxfHx0aGFpbGFuZHxlbnwwfHx8fDE2Njc4Njk1NTA&ixlib=rb-4.0.3"
+                  },
+                  {
+                      "alt_tag": "five brown wooden boats",
+                      "url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixid=MnwzNzg2NzV8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE2Njc4Njk1NTA&ixlib=rb-4.0.3"
+                  },
+                  {
+                      "alt_tag": "orange temples during daytime",
+                      "url": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixid=MnwzNzg2NzV8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE2Njc4Njk1NTA&ixlib=rb-4.0.3"
+                  },
+                  {...},
+                  {...},
+                  {...},
+                  {etc},
+                ]
+          }
+      }
+  }
+```
+## GET tourist sights within a <b>20,000</b> meter radius of the given country's capital
+
+<b>Request:</b>
+```
+  GET /api/v1/tourist_sights?country=japan
+  Content-Type: application/json
+  Accept: application/json
+```
+<b>Response:</b>
+```json
+  {
+      "data": [
+          {
+              "id": null,
+              "type": "tourist_sight",
+              "attributes": {
+                  "name": "東京スカイツリー",
+                  "address": "Tokyo Skytree, 13 1F, Narihira 1-chome, Sumida, 131-0045, Japan",
+                  "place_id": "5187a7a75ef179614059510200c5e2da4140f00102f9015ba32e1100000000920318e69db1e4baace382b9e382abe382a4e38384e383aae383bc"
+              }
+          },
+          {
+              "id": null,
+              "type": "tourist_sight",
+              "attributes": {
+                  "name": "皇居",
+                  "address": "Imperial Palace, Yamashita Street, Hanzomon, Chiyoda, 100-0001, Japan",
+                  "place_id": "5103947a2604786140592e26135f84d74140f00102f9019bb6df1f00000000920306e79a87e5b185"
+              }
+          },
+          {
+              "id": null,
+              "type": "tourist_sight",
+              "attributes": {
+                  "name": "迎賓館",
+                  "address": "Akasaka Palace, 1 Akasaka Tunnel, Motoakasaka 2-chome, Minato, 107-0051, Japan",
+                  "place_id": "51d3e47e1a527761405911cd408714d74140f00101f9011c385d0000000000920309e8bf8ee8b393e9a4a8"
+              }
+          },
+          {...},
+          {...},
+          {...},
+          {etc},
+
+      ]
+  }
+```
+## POST Create a new user with a JSON payload in the body of the request
+
+<b>Request:</b>
+```
+  POST /api/v1/users
+  Content-Type: application/json
+  Accept: application/json
+
+  {
+    "name": "Athena Dao",
+    "email": "athenadao@bestgirlever.com"
+  }
+```
+<b>Response:</b>
+```json
+  {
     "data": {
-        "id": "479101",
-        "type": "recipe",
-        "attributes": {
-            "id": 479101,
-            "title": "On the Job: Pan Roasted Cauliflower From Food52",
-            "ready_in_minutes": 20,
-            "image": "https://spoonacular.com/recipeImages/479101-556x370.jpg",
-            "summary": "If you have approximately <b>20 minutes</b> to spend in the kitchen, On the Job: Pan Roasted Cauliflower From Food52 might be an outstanding <b>dairy free, lacto ovo vegetarian, and vegan</b> recipe to try. One serving contains <b>350 calories</b>, <b>7g of protein</b>, and <b>26g of fat</b>. For <b>$1.99 per serving</b>, you get a side dish that serves 4. 225 people have made this recipe and would make it again. A mixture of breadcrumbs, sumac, pine nuts, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is brought to you by Feed Me Phoebe. Overall, this recipe earns a <b>great spoonacular score of 96%</b>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/food52s-roasted-broccoli-with-smoked-paprika-vinaigrette-and-marcona-almonds-110229\">Food52's Roasted Broccoli with Smoked Paprika Vinaigrette and Marconan Almonds</a>, <a href=\"https://spoonacular.com/recipes/pan-roasted-cauliflower-1326919\">Pan-Roasted Cauliflower</a>, and <a href=\"https://spoonacular.com/recipes/pan-roasted-cauliflower-476557\">Pan-Roasted Cauliflower</a>.",
-            "instructions": "Cut the florets off the stems and and then chop them into tiny florets. You can also chop up the stems into tiny pieces if you want. You should have about 6 cups of chopped cauliflower. In a large skillet heat 2 tablespoons of olive oil over medium-high heat. Add the cauliflower, 1 teaspoon of salt, rosemary, and sumac. Sauté until cauliflower is tender and starts to brown a bit, stirring as necessary, about 15 minutes. You can also add a bit of olive oil if the pan starts to get too dry or the cauliflower is starting to stick. Meanwhile, in a small skillet, toast the pinenuts over medium heat until golden brown. Set aside. Heat the remaining 2 tablespoons of olive oil in the same pan. Once oil is shimmering, toss in the breadcrumbs and stir, toasting the breadcrumbs. Season with a pinch of kosher salt and a few turns of freshly ground black pepper. Remove from the heat and toss in half of the chopped parsley. When cauliflower is done, remove from the heat and season to taste with freshly ground black pepper and a pinch or so of salt if necessary. Toss in the toasted pine nuts, the chopped raisins, and the remaining parsley. When ready to serve, sprinkle the top with the toasted breadcrumbs and some pecorino.",
-            "ingredients": [
-                {
-                    "name": "breadcrumbs",
-                    "amount": 0.5,
-                    "unit": "cup"
-                },
-                {
-                    "name": "cauliflower",
-                    "amount": 1.0,
-                    "unit": "head"
-                },
-                {
-                    "name": "parsley",
-                    "amount": 1.0,
-                    "unit": "handful"
-                },
-                {
-                    "name": "rosemary",
-                    "amount": 2.0,
-                    "unit": "teaspoons"
-                },
-                {
-                    "name": "golden raisins",
-                    "amount": 0.25,
-                    "unit": "cup"
-                },
-                {
-                    "name": "olive oil",
-                    "amount": 0.25,
-                    "unit": "cup"
-                },
-                {
-                    "name": "pine nuts",
-                    "amount": 0.5,
-                    "unit": "cup"
-                },
-                {
-                    "name": "sea salt",
-                    "amount": 1.0,
-                    "unit": "teaspoon"
-                },
-                {
-                    "name": "sumac",
-                    "amount": 0.5,
-                    "unit": "teaspoon"
-                }
-            ]
-        }
+      "type": "user",
+      "id": "1",
+      "attributes": {
+        "name": "Athena Dao",
+        "email": "athenadao@bestgirlever.com",
+        "api_key": "jgn983hy48thw9begh98h4539h4"
+      }
     }
-}
-
+  }
 ```
+## POST Create a new favorite if api key is valid
 
-```GET https://babe-whats-for-dinner-be.herokuapp.com/api/v1/user_recipes?uid=12345```
+<b>Request:</b>
+```
+  POST /api/v1/favorites
+  Content-Type: application/json
+  Accept: application/json
+
+  {
+      "api_key": "jgn983hy48thw9begh98h4539h4",
+      "country": "thailand",
+      "recipe_link": "https://www.tastingtable.com/.....",
+      "recipe_title": "Crab Fried Rice (Khaao Pad Bpu)"
+  }
+```
+<b>Response:</b>
 ```json
-{
-  "data": [
-    {
-      "id": "20",
-      "type": "user_recipe",
-      "attributes": {
-        "uid": "12345",
-        "recipe_id": "5678",
-        "recipe_name": "Peanut Butter Sandwich"
-      }
-    },
-    {
-      "id": "21",
-      "type": "user_recipe",
-      "attributes": {
-        "uid": "12345",
-        "recipe_id": "5679",
-        "recipe_name": "Jelly Toast"
-      }
-    }
-  ]
-}
+  {
+      "success": "Favorite added successfully"
+  }
 ```
+## GET a list of a users favorites
 
-```POST https://babe-whats-for-dinner-be.herokuapp.com/api/v1/user_recipes?uid=12345&recipe_id=5678&recipe_name=RecipeName```
-```json
-{
-  "data": 
-    {
-      "id": "22",
-      "type": "user_recipe",
-      "attributes": {
-        "uid": "12345",
-        "recipe_id": "5678",
-        "recipe_name": "RecipeName"
-      }
-    }
-}
+<b>Request:</b>
 ```
-
-```DELETE https://babe-whats-for-dinner-be.herokuapp.com/api/v1/user_recipes?uid=12345&recipe_id=5678```
-```json
-{
-  "data": 
-    {
-      "id": "22",
-      "type": "user_recipe",
-      "attributes": {
-        "uid": "12345",
-        "recipe_id": "5678",
-        "recipe_name": "RecipeName"
-      }
-    }
-}
+  GET /api/v1/favorites?api_key=jgn983hy48thw9begh98h4539h4
+  Content-Type: application/json
+  Accept: application/json
 ```
-    
-## Tech Stack
-![BWFD Tech Stack](https://user-images.githubusercontent.com/109649285/222281020-da5e7bea-b784-41f4-83fa-6e6f8aeb90cf.png)
+<b>Response:</b>
+```json
+   {
+      "data": [
+          {
+              "id": "1",
+              "type": "favorite",
+              "attributes": {
+                  "recipe_title": "Recipe: Egyptian Tomato Soup",
+                  "recipe_link": "http://www.thekitchn.com/recipe-egyptian-tomato-soup-weeknight....",
+                  "country": "egypt",
+                  "created_at": "2022-11-02T02:17:54.111Z"
+              }
+          },
+          {
+              "id": "2",
+              "type": "favorite",
+              "attributes": {
+                  "recipe_title": "Crab Fried Rice (Khaao Pad Bpu)",
+                  "recipe_link": "https://www.tastingtable.com/.....",
+                  "country": "thailand",
+                  "created_at": "2022-11-07T03:44:08.917Z"
+              }
+          }
+      ]
+   }
+```
 
 ## Setup and Installation
 
@@ -205,7 +259,9 @@ From your terminal, run:
 
 ## API Information
 
-This application are consumes the <a href= "https://restcountries.com/#api-endpoints-v3-all">REST Countries API</a>, <a href= "https://restcountries.com/#api-endpoints-v3-all">REST Countries API</a>, for this project. 
+
+This application are consumes the <a href= "https://restcountries.com/#api-endpoints-v3-all">REST Countries API</a>, <a href= "https://developer.edamam.com/edamam-recipe-api">Edamam Recipes API</a>, <a href= "https://developers.google.com/youtube/v3/getting-started">YouTube API</a>, <a href= "https://apidocs.geoapify.com/docs/places/#about">Places API</a>, and <a href= "https://unsplash.com/documentation">UnSplash Images API</a>.
+Each of these public APIs requires an authorized API key. Visit API webpages above to get your free API keys.
 
 ## Responsible Parties
 
