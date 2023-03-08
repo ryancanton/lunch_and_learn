@@ -251,11 +251,11 @@ From your terminal, run:
 
 ## Learning Goals
 
-- Employ Service-Oriented Architecture to create a working app with separate front and back ends
-- Create a descriptive and inticing ReadMe
-- Build and consume APIs
-- Implement OAuth for user registration
-- Create wireframes and user stories to facilitate programming
+- Expose an API that aggregates data from multiple external APIs
+- Expose an API that requires an authentication token
+- Expose an API for CRUD functionality
+- Determine completion criteria based on the needs of other developers
+- Test both API consumption and exposure, making use of at least one mocking tool (VCR, Webmock, etc).
 
 ## API Information
 
