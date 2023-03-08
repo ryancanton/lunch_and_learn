@@ -121,6 +121,23 @@
           null
         ]
       },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/models/favorite.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/serializers/favorite_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/facades/learning_resources_facade.rb": {
         "lines": [
           1,
@@ -322,6 +339,6 @@
         ]
       }
     },
-    "timestamp": 1678225369
+    "timestamp": 1678244155
   }
 }
