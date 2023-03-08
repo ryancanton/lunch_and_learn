@@ -105,6 +105,64 @@
           null
         ]
       },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/country.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          251,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/image.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          32,
+          32,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/learning_resource.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          3,
+          3,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          41,
+          41,
+          41,
+          41,
+          41,
+          null,
+          null
+        ]
+      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/tourist_sight.rb": {
         "lines": [
           1,
@@ -118,6 +176,19 @@
           41,
           41,
           41,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/video.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          5,
+          5,
           null,
           null
         ]
@@ -150,17 +221,6 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/country.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          250,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/youtube_service.rb": {
         "lines": [
           1,
@@ -174,19 +234,6 @@
           null
         ]
       },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/video.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          3,
-          3,
-          null,
-          null
-        ]
-      },
       "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/services/unsplash_service.rb": {
         "lines": [
           1,
@@ -194,34 +241,6 @@
           3,
           3,
           3,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/image.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          30,
-          30,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/learning_resource.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
           null,
           null
         ]
@@ -243,25 +262,6 @@
           2,
           2,
           2,
-          null,
-          null
-        ]
-      },
-      "/Users/ryancanton/Documents/Turing/3_mod/solo_projects/lunch_and_learn/app/poros/recipe.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          40,
-          40,
-          40,
-          40,
-          40,
           null,
           null
         ]
@@ -339,6 +339,6 @@
         ]
       }
     },
-    "timestamp": 1678296384
+    "timestamp": 1678297420
   }
 }
